@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+    
+}
+.img-icons{
+    width: 14px;
+    height: 14px;
+}
+.profile-img{
+    border-radius: 50%;
+}
+.container-left{
+    background-color: #E1D8CF;
+}
+
+.header-name{
+    color: white;
+    background-color:rgb(55,55,64) ;
+}
+.header-name h1{
+    color: #E1D8CF;
+}
+.header-name p{
+    color: #E1D8CF;
+}
+.header-name a{
+    color: #E1D8CF;
+}
+.projects{
+    background-color: white;
+    
+}
+ .project-title {
+    background-color: rgb(55,55,64);
+    color: #E1D8CF
+}
+.education-title{
+    background-color: rgb(55,55,64);
+}
+.education-title h1{
+    color:#E1D8CF
+}
+.personal-title h1{
+    background-color:rgb(55,55,64);
+    color:#E1D8CF
+}
+.achieve-title h1{
+    background-color:rgb(55,55,64);
+    color:#E1D8CF
+}
+.technical-title h1{
+    background-color:rgb(55,55,64);
+    color:#E1D8CF
+}
+
+
