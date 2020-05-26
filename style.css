@@ -1,9 +1,14 @@
-body{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-     font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
     
+}
+.img-container{
+    display: flex;
+    justify-content: center;
 }
 .img-icons{
     width: 14px;
@@ -11,9 +16,30 @@ body{
 }
 .profile-img{
     border-radius: 50%;
+    display: flex;
+    
+}
+.parent-container{
+    display: flex;
+    border: 1px solid black;
+    height: 100vh;
+   
 }
 .container-left{
     background-color: #E1D8CF;
+    border: 1px solid black;
+    flex-shrink: 2
+    
+    
+    
+    
+}
+.container-right{
+    border: 1px solid black;
+    ;
+    
+   
+    
 }
 
 .header-name{
@@ -31,11 +57,17 @@ body{
 }
 .projects{
     background-color: white;
+    padding-top: 12px;
     
 }
  .project-title {
     background-color: rgb(55,55,64);
     color: #E1D8CF
+}
+.project-item {
+    display: flex;
+    justify-content: center;
+    border: 1px solid pink;
 }
 .education-title{
     background-color: rgb(55,55,64);
@@ -43,17 +75,44 @@ body{
 .education-title h1{
     color:#E1D8CF
 }
+.education-item{
+    display: flex;
+    justify-content: center;
+}
 .personal-title h1{
     background-color:rgb(55,55,64);
     color:#E1D8CF
+    
+}
+.personal-item{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.personal-info {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    align-items: center;
 }
 .achieve-title h1{
     background-color:rgb(55,55,64);
     color:#E1D8CF
 }
+.achieve-item{
+    display: flex;
+    justify-content: center;
+}
+
 .technical-title h1{
     background-color:rgb(55,55,64);
     color:#E1D8CF
+}
+.technical-item{
+    display:flex;
+    justify-content: center;
+
 }
 
 
