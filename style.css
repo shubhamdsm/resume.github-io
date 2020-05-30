@@ -1,9 +1,9 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    
+    
     font-family: "Poppins", sans-serif;
-    list-style: none;
+    
+    font-size: 12px;
     
     
 
@@ -12,6 +12,11 @@
 .img-container{
     display: flex;
     justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    
+    
 }
 .img-icons{
     width: 14px;
@@ -26,7 +31,7 @@
 .parent-container{
     display: flex;
     
-    height: 1265px;
+    height: 1000px;
     width: 987px;
    
 }
@@ -46,9 +51,7 @@
    
     
 }
-.icons{
-    
-}
+
 
 .header-name{
     color: white;
@@ -74,7 +77,7 @@
 }
 .projects{
     background-color: white;
-    padding-top: 12px;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     
@@ -95,6 +98,8 @@
     
     
 }
+
+    
 .education-title{
     background-color: rgb(55,55,64);
 }
@@ -123,7 +128,7 @@
 }
 .personal-info {
     display: flex;
-    margin: 0 auto;
+    justify-content: center;
     
 }
 .achieve-title h1{
@@ -135,6 +140,7 @@
     display: flex;
     justify-content: center;
 }
+
 
 .technical-title h1{
     background-color:rgb(55,55,64);
@@ -148,3 +154,25 @@
 }
 
 
+.name{
+    font-size: 40px;
+}
+.post{
+    font-size: 20px;
+}
+.project-name{
+    font-size: 20px;
+}
+.title-name{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.img-middle{
+    display:flex;
+    
+    
+}
