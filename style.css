@@ -5,6 +5,9 @@
     font-family: "Poppins", sans-serif;
     list-style: none;
     
+    
+
+    
 }
 .img-container{
     display: flex;
@@ -14,6 +17,7 @@
     width: 14px;
     height: 14px;
 }
+
 .profile-img{
     border-radius: 50%;
     display: flex;
@@ -21,13 +25,14 @@
 }
 .parent-container{
     display: flex;
-    border: 1px solid black;
-    height: 100vh;
+    
+    height: 1265px;
+    width: 987px;
    
 }
 .container-left{
     background-color: #E1D8CF;
-    border: 1px solid black;
+    
     flex-shrink: 2
     
     
@@ -36,18 +41,30 @@
 }
 .container-right{
     border: 1px solid black;
-    ;
+    
     
    
+    
+}
+.icons{
     
 }
 
 .header-name{
     color: white;
     background-color:rgb(55,55,64) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+    
+    
 }
 .header-name h1{
     color: #E1D8CF;
+    
+    
 }
 .header-name p{
     color: #E1D8CF;
@@ -58,30 +75,44 @@
 .projects{
     background-color: white;
     padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    
     
 }
  .project-title {
     background-color: rgb(55,55,64);
-    color: #E1D8CF
+    color: #E1D8CF;
+    
+    
+    
 }
-.project-item {
+.project-item  h1{
     display: flex;
-    justify-content: center;
-    border: 1px solid pink;
+    font-size: 20px;
+
+    
+    
+    
 }
 .education-title{
     background-color: rgb(55,55,64);
 }
 .education-title h1{
-    color:#E1D8CF
+    color:#E1D8CF;
+    font-size: 20px;
+    display: flex;
+
+    
 }
 .education-item{
     display: flex;
-    justify-content: center;
+    
 }
 .personal-title h1{
     background-color:rgb(55,55,64);
-    color:#E1D8CF
+    color:#E1D8CF;
+    font-size: 20px;
     
 }
 .personal-item{
@@ -92,13 +123,13 @@
 }
 .personal-info {
     display: flex;
-    justify-content: center;
-    border: 1px solid black;
-    align-items: center;
+    margin: 0 auto;
+    
 }
 .achieve-title h1{
     background-color:rgb(55,55,64);
-    color:#E1D8CF
+    color:#E1D8CF;
+    font-size: 20px;
 }
 .achieve-item{
     display: flex;
@@ -107,7 +138,8 @@
 
 .technical-title h1{
     background-color:rgb(55,55,64);
-    color:#E1D8CF
+    color:#E1D8CF;
+    font-size: 20px;
 }
 .technical-item{
     display:flex;
